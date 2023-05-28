@@ -1,0 +1,18 @@
+.headerMenu{
+  display: flex;
+  list-style: none;
+  gap: 8px;
+  margin: 0 100px;
+}
+
+.headerMenu li:nth-child(2){
+  margin-left: auto;
+}
+
+.headerMenu a{
+  text-decoration: none;
+}
+
+.active {
+  color: orange;
+}
